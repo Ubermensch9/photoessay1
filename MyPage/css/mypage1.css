@@ -1,0 +1,26 @@
+.mypageMenu2_list:nth-child(1){
+    border-bottom: 4px solid #6fa78b;
+    font-weight: 700;
+}
+
+.mypageMenu2_list:nth-child(2) a:hover{
+    border-bottom: 4px solid #6fa78b;
+}
+
+
+
+[class^="mypageWrap"]{
+    position: relative;
+    width: 1230px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+.mypageWrap1{
+    padding: 100px 230px 150px;
+}
+
+.mypageWrap2{
+    padding: 100px 0px 150px;
+}
+

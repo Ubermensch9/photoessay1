@@ -1,0 +1,29 @@
+.profile_img{
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+
+.profile_form{
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+.profile_img img{
+    display: flex;
+    position: relative;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 11px;
+    border-radius: 20px;
+}
+
+
+
+.profile_form input{
+    width: 300px;
+    height: 34px;
+    margin-top: 10px;
+}

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin : 0 auto;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #58595b;
+}
+
+a:visited {
+    color: #58595b;
+}
+
+
+
+
+header{
+    border-bottom: 1px solid #d7dbdd;
+}
+
+.headerWrap{
+    /* border-bottom: 3px solid black; */
+    margin: auto;
+    width: 1260px;
+    height: 130px;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    padding: 0 50px;
+}
+
+header img{
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+
+header h1{
+    position: absolute;
+    left: 165px;
+    top: 42px;
+    color: #4A6769;
+}
+
+header h3{
+    position: absolute;
+    left: 173px;
+    top: 86px;
+    font-size: 16px;
+    color: #5a9266;
+}
+
+
+
+
+header .topbar ul{
+    display: flex;
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 25px;   
+}
+
+header .topbar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header .topbar ul li a{
+    font-size: 16px;
+    display: block;
+    position: relative;
+}
+
+header .topbar ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    height: 2px; 
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+header .topbar ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+header nav ul{
+    display: flex;
+    position: relative;
+    right: 80px;
+    top: 35px;  
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+
+
+header nav ul li a{
+    font-size: 22px;
+}
+
+header nav ul li a:hover{
+    color: tomato;
+}
+
+
+
+
+.contentsWrap{
+    margin: auto;
+    width: 1230px;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    padding: 40px 0;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+footer{
+    border-top: 1px solid #d7dbdd;
+    background-color: #fafbfc;
+}
+
+.footerWrap{
+    /* border-top: 3px solid black; */
+    margin: auto;
+    width: 1260px;
+    height: 130px;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+footer .footerArea2 ul li{
+    display: inline-block;
+    margin: 0 23px;
+}
+
+footer .footerArea2 ul li a:hover{
+    color: tomato;
+}

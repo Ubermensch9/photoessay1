@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoEssay &nbsp|&nbsp MyPage </title>
+    <link rel="short icon" href="img/photo_Essay.png">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/mypage.css">
+    <link rel="stylesheet" href="css/mypage1.css">
+    <link rel="stylesheet" href="css/mypage1-4-2.css">
+    <style>
+        .mypageMenu3_list:nth-child(4) {
+            font-weight: 900;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <header>
+        <div class="headerWrap">
+            <div>
+                <a href="#">
+                    <img src="img/photo_Essay.png">
+                    <h1>PhotoEssay</h1>
+                    <h3>- 세상 사는 이야기 -</h3>
+                </a>
+            </div>
+            <div class="topbar">
+                <ul>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">로그아웃</a></li>
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><strong>공지사항</strong></a></li>
+                    <li><a href="#">여행</a></li>
+                    <li><a href="#">육아</a></li>
+                    <li><a href="#">일상</a></li>
+                    <li><a href="#">반려동물</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- 본문 -->
+    <div class="contentsWrap">
+        <!-- 마이페이지 메뉴 -->
+        <div class="mypageMenuWrap">
+            <div class="mypageMenu1">마이페이지</div>
+            <div class="mypageMenu2">
+                <ul>
+                    <li class="mypageMenu2_list"><a href="#">프로필</a></li>
+                    <li class="mypageMenu2_list"><a href="#">내가 쓴 게시물</a></li>
+                </ul>
+            </div>
+            <div class="mypageMenu3-1">
+                <ul>
+                    <li class="mypageMenu3_list"><a href="#">현재 프로필</a></li>
+                    <li class="mypageMenu3_list"><a href="#">프로필 변경</a></li>
+                    <li class="mypageMenu3_list"><a href="#">비밀번호 변경</a></li>
+                    <li class="mypageMenu3_list"><a href="#">회원탈퇴</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 마이페이지 본문 -->
+        <div class="mypageWrap2">
+            <div class="notice">
+                <div class="deleteAccount_txt">
+                    <p>안전한 회원탈퇴를 위해, <span>비밀번호를 확인해주세요.</span></p>
+                </div>
+                <div class="deleteAccount_txt2">
+                    비밀번호 확인 후 아이디는 즉시 탈퇴됩니다.
+                    <br>탈퇴 후에는 동일 아이디로 다시 가입할 수 없으며 아이디와 데이터는 복구할 수 없으니 신중하게 선택해 주세요.
+                </div>
+
+                <div class="deleteAccount_form">
+                    <form action="#" method="post">
+                        <p>
+                            <label for="id">
+                                <h4>아이디</h4>
+                            </label>
+                            <input id="id" type="text" placeholder="photo" name="userid" disabled>
+                        </p>
+                        <br>
+                        <p>
+                            <label for="pwd">
+                                <h4>비밀번호</h4>
+                            </label>
+                            <input id="pwd" type="password" name="userpwd" placeholder="비밀번호를 입력해주세요.">
+                        </p>
+                    </form>
+                </div>
+                <!-- 취소 클릭시 현재 프로필 페이지로 이동 -->
+                <input class="deleteAccount_btn1" type="submit" value="취소" />
+                <input class="deleteAccount_btn2" type="submit" value="확인" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 푸터 영역 -->
+    <footer>
+        <div class="footerWrap">
+            <div class="footerArea1">
+                <address>
+                    <p>Address. 서울특별시 영등포구 영중로8길 6 6층</p>
+                    <span>TEL. 000-000-0000 &nbsp|&nbsp</span>
+                    <span>FAX. 000-000-0000 &nbsp|&nbsp</span>
+                    <span>E-Mail. aaa@aaaa.com</span>
+                    <p>CEO. 계현진 권욱현 김기역 김성환 김소진 김태규</p>
+                    <p>© 2022. <strong>PhotoEssay(세상 사는 이야기)</strong>. All Rights Reserved.</p>
+                </address>
+            </div>
+            <div class="footerArea2">
+                <ul>
+                    <li><a href="#">서비스 소개</a></li>
+                    <li><a href="#">이용정보처리방침</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

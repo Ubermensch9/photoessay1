@@ -1,0 +1,132 @@
+
+/* .notice{
+    border: 2px solid black;
+} */
+
+
+.deleteAccount_txt{
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: rgb(85, 84, 84);
+}
+
+.deleteAccount_txt span{
+    color: red;
+}
+
+
+[class *= "notice_"]{
+    width: 1100px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+    border-top: 1px solid #d7dbdd;
+    border-bottom: 1px solid #d7dbdd;
+}
+
+
+[class *= "_title"]{
+    /* border: 3px solid orange; */
+    display: flex;
+    position: absolute;
+    width: 920px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    align-items: center;
+}
+
+[class *= "notice_"] form{
+    /* border: 3px solid green; */
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 950px;
+    align-items: center;
+}
+
+[class *= "notice_"] form input{
+    /* border: 3px solid pink; */
+    padding-top: 40px;
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+[class *= "notice_"] form label{
+    /* border: 3px solid red; */
+    position: absolute;
+    left: 45px;
+    font-size: 22px;
+    font-weight: 600;
+}
+[class *= "_content"]{
+    /* border: 3px solid aqua; */
+    display: flex;
+    position: absolute;
+    width: 1040px;
+    height: 80px;
+    top: 100px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+[class *= "_content"] .span1{
+    /* border: 3px solid purple; */
+    display: flex;
+    position: absolute;
+}
+[class *= "_content"] .span2{
+    /* border: 3px solid purple; */
+    display: flex;
+    position: absolute;
+    top: 35px;
+}
+
+
+.deleteAccount_btn1, .deleteAccount_btn2{   
+    width: 150px;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 480px;
+    top: 100px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+
+.deleteAccount_btn1{
+    background-color: white;
+    color: #51c47d;
+    border: 1px solid rgb(197, 196, 196);
+}
+
+.deleteAccount_btn2{
+    background-color: #51c47d;
+    color: white;
+}
+
+.deleteAccount_btn1:hover{
+    cursor: pointer;
+    background-color: #faf4f4;
+}
+
+.deleteAccount_btn2:hover{
+    cursor: pointer;
+    background-color: #6ba88a;
+}
