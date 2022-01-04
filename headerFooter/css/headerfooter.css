@@ -23,6 +23,7 @@ header{
 }
 
 .headerWrap{
+    /* border-bottom: 3px solid black; */
     margin: auto;
     width: 1260px;
     height: 130px;
@@ -67,11 +68,11 @@ header .topbar ul{
 
 header .topbar ul li{
     display: inline-block;
-    margin: 0 18px;
+    margin: 0 15px;
 }
 
 header .topbar ul li a{
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     position: relative;
 }
@@ -128,6 +129,7 @@ header nav ul li a:hover{
     align-items: center; 
     position: relative;
     padding: 40px 0;
+    /* border: 1px solid black; */
 }
 
 
@@ -140,6 +142,7 @@ footer{
 }
 
 .footerWrap{
+    /* border-top: 3px solid black; */
     margin: auto;
     width: 1260px;
     height: 130px;
