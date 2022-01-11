@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin : 0 auto;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #58595b;
+}
+
+a:visited {
+    color: #58595b;
+}
+
+
+
+
+header{
+    border-bottom: 1px solid #d7dbdd;
+}
+
+.headerWrap{
+    /* border-bottom: 3px solid black; */
+    margin: auto;
+    width: 1280px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+}
+
+header img{
+    width: 130px;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+header h1{
+    position: absolute;
+    left: 140px;
+    top: 42px;
+    color: #4A6769;
+}
+
+header h3{
+    position: absolute;
+    left: 150px;
+    top: 86px;
+    font-size: 16px;
+    color: #5a9266;
+}
+
+
+header .topbar ul{
+    display: flex;
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 30px;
+}
+
+header .topbar ul li{
+    display: inline-block;
+    margin: 0 18px;
+}
+
+header .topbar ul li a{
+    font-size: 20px;
+    display: block;
+    position: relative;
+}
+
+header .topbar ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+header .topbar ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+header nav ul{
+    display: flex;
+    position: relative;
+    right: 80px;
+    top: 30px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+
+
+header nav ul li a{
+    font-size: 25px;
+}
+
+header nav ul li a:hover{
+    color: tomato;
+}
+
+.contentsWrap{
+    margin: auto;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 40px 20px 40px 30px;
+}
+
+footer{
+    border-top: 1px solid #d7dbdd;
+    background-color: #fafbfc;
+}
+
+.footerWrap{
+    /* border-top: 3px solid black; */
+    margin: auto;
+    width: 1280px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+footer .footerArea2 ul li{
+    display: inline-block;
+    margin: 0 23px;
+}
+
+footer .footerArea2 ul li a:hover{
+    color: tomato;
+}
