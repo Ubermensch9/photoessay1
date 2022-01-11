@@ -1,0 +1,308 @@
+/*.header{
+position:static;
+padding:28px 52px;
+}
+    
+.header .gnb{
+display:block !important;
+position:static;
+float:right;
+width:auto;
+margin-top:6px;
+background:none;
+}
+    
+.header .gnb li{
+float:left;
+margin-left:21px;
+border-bottom:0;
+}
+    
+.header .gnb li a{
+padding:0;
+font-size:20px;
+color:#3f51b5;
+}
+    
+.header .menu-toggle-btn{
+display:none !important;
+}*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header sc {
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+header img {
+  width: 130px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 0px;
+}
+
+header h1 {
+  margin-left: 15%;
+  padding-top: 50px;
+  color:#03136E;
+}
+
+header .info ul {
+  float: right;
+  margin-right: 25px;
+  margin-top: -50px;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header ul li a {
+  position: relative;
+  color: black;
+  font-size: 18px;
+}
+
+header .info ul li a:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+}
+
+header .info ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+header nav ul {
+  float: right;
+  margin-right: 11%;
+  margin-top: -10px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header nav ul li a {
+  font-size: 25px;
+}
+
+/*.header .menu-toggle-btn{
+display:none !important;
+}*/
+
+html, body {
+  height: 100%;
+}
+
+#wrapper {
+  position: relative;
+  height: 100%;
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 460px;
+}
+
+#content h1 {
+  margin-top: 50px;
+}
+
+h3 {
+  margin: 19px 0 8px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.box {
+  display: block;
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  padding: 10px 14px 10px 14px;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+}
+
+.int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 29px;
+  border: none;
+  background: #fff;
+  font-size: 15px;
+}
+
+input {
+  font-family: Dotum, '돋움', Helvetica, sans-serif;
+}
+
+.double_check{
+  align-content: center;
+}
+
+#alertTxt {
+  position: absolute;
+  top: 19px;
+  right: 38px;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+/* 버튼 */
+.btn_area {
+  margin: 30px 0 91px;
+}
+
+
+#btnJoin {
+  width: 100%;
+  padding: 15px 0 15px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #73C3CB;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Dotum, '돋움', Helvetica, sans-serif;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: #323232;
+  /*position: relative;*/
+  transform: translateY(-100%);
+  margin-top:104px;
+  text-align:center
+}
+
+.footerArea1 {
+  margin: 20px 200px;
+  color: #c8c8c8;
+  font-size: 12px;
+  text-align:center
+  
+}
+
+.footerArea2 {
+  margin-top: 30px;
+  margin-left: 25%;
+  font-size: 14px;
+}
+
+/*footer ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 30px;
+}*/
+
+footer ul li {
+  display: inline-block;
+  line-height: 30px;
+  /*margin: 0 30px;*/
+  width: px;
+  margin-left: 2%;
+  margin-right: auto;
+}
+
+
+footer ul li a {
+  color: #c8c8c8;
+}
+
+footer ul li:first-child a {
+  color: #ff9000;
+}
+
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
+display:block;
+}
+
+hr{
+display:block;
+height:3px;
+border:0;
+margin-top: 200px;
+padding:0;
+}
+
+
+.menu-toggle-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 10px 0px;
+  text-align: left;
+  font-size: 35px;
+  margin: 1px 0px;
+  transition: 0.3s;
+}
+
+.menu-toggle-btn:hover {
+  background-color: #0FC6E4;
+  color: black;
+}
+
+.header .menu-toggle-btn{
+float:right;
+width:30px;
+margin-top:6px;
+cursor:pointer;
+}
+
+.header .menu-toggle-btn span{
+display:block;
+width:100%;
+height:3px;
+background:#161314;
+}
+    
+.header .menu-toggle-btn span:nth-child(2){
+margin:7px 0;
+}
+
+.gnb {
+  background-color: transparent;
+  border: none;
+  color: deepskyblue;
+  padding: 16px 32px;
+  text-align: left;
+  font-size: 50px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+.gnb {
+  background-color: #0FC6E4;
+  color: black;
+}
+
