@@ -1,0 +1,164 @@
+@charset utf-8;
+
+/* 웹폰트 CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Serif');
+ 
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, 
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, 
+time, mark, audio, video{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+text-align: center
+vertical-align:baseline;
+background:transparent;
+}
+
+body{
+font-family:'Montserrat',DroidSans,AppleSDGothicNeo,Sans-serif,Helvetica;
+line-height:1;
+/*background-image: url("D:\web\team project\photo essay\image\cover_gr_leica.png");*/
+	
+}
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
+display:block;
+}
+
+nav ul, li{
+list-style:none;
+}
+
+a{
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+text-decoration:none;
+}
+
+img{
+vertical-align:top;
+	position: absolute
+		left: 30px;
+		top: 10px;
+	max-width: 100%;
+}
+
+
+
+hr{
+display:block;
+height:2px;
+border:0;
+margin:0;
+padding:0;
+/*padding-right: 10px;
+padding-left: 100px;*/
+}
+
+input, textarea{
+width:100%;
+margin:0;
+padding:0;
+border:0;
+border-bottom:1px solid #757575;
+color:#3f51b5;
+font-family:'Montserrat';
+font-size:12px;
+vertical-align:top;
+border-radius:0;
+box-sizing:content-box;
+appearance:none;
+}
+
+::-moz-input-placeholder, ::-moz-textarea-placeholder{
+color:#3f51b5;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{
+color:#3f51b5;
+}    
+
+/*sh {
+	text-shadow: 3px 3px #666666;
+	font-size: 150%;}*/
+	
+sh {text-shadow: 3px 1px darkgray;}
+sh_d {text-shadow: 3px 3px black;}
+
+
+.menu-toggle-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: left;
+  font-size: 35px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.menu-toggle-btn:hover {
+  background-color: #0FC6E4;
+  color: black;
+}
+
+.gnb {
+  background-color: transparent;
+  border: none;
+  color: deepskyblue;
+  padding: 16px 32px;
+  text-align: left;
+  font-size: 50px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+.gnb {
+  background-color: #0FC6E4;
+  color: black;
+}
+
+
+
+ <style>
+/* Mobile First */
+ 
+.title { font-size: 12px; }
+ 
+@media (min-width: 640px) {
+  .title { font-size: 14px; }
+}
+ 
+@media (min-width: 768px) {
+  .title { font-size: 16px; }
+}
+ 
+@media (min-width: 1024px) {
+  .title { font-size: 18px; }
+    
+ 
+@media (max-width: 1023px) {
+  .title { font-size: 16px; }
+}
+ 
+@media (max-width: 767px) {
+  .title { font-size: 14px; }
+}
+ 
+@media (max-width: 639px) {
+  .title { font-size: 12px; }
+}
+	
+	
+</style>
+
